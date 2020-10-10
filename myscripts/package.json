@@ -1,0 +1,32 @@
+{
+  "name": "myscripts2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-image": "tsc && node dist/build-image.js",
+    "default-main": "tsc && node dist/default-main.js",
+    "kill-all": "tsc && node dist/kill-all.js",
+    "start-ecs": "tsc && node dist/start-ecs.js",
+    "submit-job": "tsc && node dist/submit-job.js",
+    "test-upload-s3": "tsc && node dist/test-upload-s3.js",
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.11.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.761.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "gaxios": "^3.2.0",
+    "recursive-readdir-async": "^1.1.8"
+  }
+}

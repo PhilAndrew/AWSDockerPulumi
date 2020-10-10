@@ -1,0 +1,4 @@
+Typescript project.
+
+npm start
+
