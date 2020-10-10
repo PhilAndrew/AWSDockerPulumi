@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ExpressGeneratorTypeScriptApp</title>
+        <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+    </head>
+    <body>
+
+        <div class="results">
+            <h3>Results</h3>
+            <p>The resulting log messages from executing the typescript job file is as follows:</p>
+            
+            <pre id="result">
+                &nbsp;
+            </pre>
+        </div>
+        
+
+        <div style='display:none'>
+        <h3>The following is for demostration purpose only</h3>
+
+        <p>This demonstrates that the server is a running server in docker with a mock database able to store and retrieve user records.</p>
+
+        <!-- Add Users -->
+        <div class="users-column add-user-col">
+            <div class="column-header">Add User:</div>
+            <div>
+                <input id="name-input" placeholder="Name">
+            </div>
+            <div>
+                <input id="email-input" placeholder="Email">
+            </div>
+            <div>
+                <button id="add-user-btn">Add</button>
+            </div>
+        </div>
+
+        <!-- Display Users -->
+        <div class="users-column">
+            <div class="column-header">Users:</div>
+            <div id="all-users-anchor"></div>
+        </div>
+    </div>
+
+
+    </body>
+    <script src="scripts/index.js"></script>
+</html>
