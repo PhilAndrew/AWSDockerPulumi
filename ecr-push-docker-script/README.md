@@ -3,7 +3,7 @@
 
 ## Why Pulumi
 
-[Pulumi](https://www.pulumi.com/) makes sure the state AWS services match what was specified in a typescript file index.ts as given here. It creates and destroys entire stacks of AWS infrastructure, alternatively if using AWS API directory then it would often the case that the state of AWS would become invalid in some way, unless the code was written very carefully.
+[Pulumi](https://www.pulumi.com/) makes sure the state AWS services match what was specified in a typescript file index.ts as given here. It creates and destroys entire stacks of AWS infrastructure, alternatively if using AWS API directory then it would often the case that the state of AWS would become invalid in some way, unless the code was written very carefully, so pulumi is chosen.
 
 ## Introduction
 
