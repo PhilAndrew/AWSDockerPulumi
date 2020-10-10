@@ -13,7 +13,7 @@ This takes typescript files and runs them on AWS within docker containers, speci
  will do some work.
 
 The typescript files must be places into the `deployscripts` folder, use a file name which is all lowercase characters
- and no spaces or special characters, just alphanumeric. If a typescript file has been removed from that folder and pulumi up has been run then that Docker container will be removed from AWS as well. View the typescript files there to understand how they can do work.
+ and no spaces or special characters, just alphanumeric. If a typescript file has been removed from that folder and pulumi up has been run then that Docker container will be removed from AWS as well. This keeps the deployed typescript files on AWS matching the ones in the folder `deployscripts`. View the typescript files there to understand how they can do work.
 
 Then to deploy this to AWS do:
 
